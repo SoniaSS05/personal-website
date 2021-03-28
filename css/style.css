@@ -29,7 +29,7 @@ nav.social-network{
 
 nav.social-network a{
     font-size: 30px;
-    color:mediumblue;
+    color:#0000cd;
     margin: 20px 25px 5px 10px;
 }
 
@@ -76,26 +76,28 @@ button::-moz-focus-inner { border: 0; } /* Para Firefox */
 
 .b3d{
     border:0;
-    color: #311a6e;
-    font-size: 38px;
+    color: #0000cd;
+    font-size: 25px;
     font-family:sans-serif;
     padding: 0px 50px;
-    background: -moz-linear-gradient(center top , #978eeb 0%, #8856c9 100%) repeat scroll 0 0 transparent;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#978eeb), color-stop(100%,#5661c9));
+    background: -moz-linear-gradient(center top , #3152aa 0%, #483fc9 100%) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#829eec ), color-stop(100%,#5661c9));
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
-    text-shadow: 1px 1px 1px #cfa6fe;
-    -moz-box-shadow: 0px 6px 0 #5d459f;
-    -webkit-box-shadow: 0px 6px 0 #5d459f;
+    text-shadow: 1px 1px 1px #5f7ddf;
+    -moz-box-shadow: 0px 6px 0 #2b4897;
+    -webkit-box-shadow: 0px 6px 0 #2b4897;
+    text-shadow: 1px 1px 1px #a6b6fe;
+    width:250px;
    }
 
 .b3d:active{
    position:relative;
    top:3px;
-   -moz-box-shadow:0px 3px 0 #5d459f;
-   -webkit-box-shadow:0px 3px 0 #5d459f;
-   background: -moz-linear-gradient(center top , #A5C956 0%, #CDEB8E 100%) repeat scroll 0 0 transparent;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a5c956), color-stop(100%,#cdeb8e));
+   -moz-box-shadow:0px 3px 0 #455d9f;
+   -webkit-box-shadow:0px 3px 0 #455d9f;
+   background: -moz-linear-gradient(center top , #483fc9 0%, #3152aa 100%) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#483fc9), color-stop(100%,#3152aa));
    }
 
 
