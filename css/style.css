@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 120vh;
+    width: 100%;
+    background-image: url(../images/wallwhite.jpg);
+   /* display: flex;
+    justify-content: center;
+    align-items: center;
+    /*margin-bottom: 15em;*/
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    text-align:center;
+    margin-top:15px;
+
+}
+
+nav.social-network{
+    text-align: center;
+}
+
+nav.social-network a{
+    font-size: 30px;
+    color:mediumblue;
+    margin: 20px 25px 5px 10px;
+}
+
+.container{
+    text-align: center;
+
+}
+
+.movement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5em 0em 40em 0em;
+}
+
+.container h1{
+    font-family: 'Lobster Two', cursive;
+    font-size: 100px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: url(../images/colorido.jpg);
+    background-attachment: fixed;
+}
+
+.container h2{
+    font-size:50px;
+}
+.container p{
+    font-size: 30px;
+    font-family:  'Calligraffitti', cursive;;
+}
+
+span.italic{
+    font-size: 50px;
+}
+
+
+
+
