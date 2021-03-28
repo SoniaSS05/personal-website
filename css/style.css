@@ -16,11 +16,10 @@ body{
 
 .header{
     width: 100%;
-    height: 50px;
+    height: 40px;
     align-items: center;
     text-align:center;
     margin-top:15px;
-
 }
 
 nav.social-network{
@@ -36,6 +35,7 @@ nav.social-network a{
 .movement{
     align-items: center;
     margin: 5em 0em 40em 0em;
+
 }
 
 .container{
@@ -65,9 +65,10 @@ span.italic{
 }
 
 .menu{
-    display:flex;
-    justify-content: space-between;
-    margin: 250px 0px 0px 0px;
+    /*display:flex;
+    justify-content: space-between;*/
+ 
+    margin: 40px 0px 0px 0px;
     width: 100%;
     height: 40px;
 }
@@ -75,30 +76,44 @@ span.italic{
 button::-moz-focus-inner { border: 0; } /* Para Firefox */
 
 .b3d{
+    display:block;
     border:0;
     color: #0000cd;
     font-size: 25px;
     font-family:sans-serif;
-    padding: 0px 50px;
+    padding: 10px 10px;
     background: -moz-linear-gradient(center top , #3152aa 0%, #483fc9 100%) repeat scroll 0 0 transparent;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#829eec ), color-stop(100%,#5661c9));
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
     text-shadow: 1px 1px 1px #5f7ddf;
-    -moz-box-shadow: 0px 6px 0 #2b4897;
-    -webkit-box-shadow: 0px 6px 0 #2b4897;
+    /*-moz-box-shadow: 0px 6px 0 #2b4897;
+    -webkit-box-shadow: 0px 6px 0 #2b4897;*/
     text-shadow: 1px 1px 1px #a6b6fe;
-    width:250px;
+    width:230px;
+
+    margin:5px 0px 0px 15px;
    }
 
 .b3d:active{
    position:relative;
    top:3px;
-   -moz-box-shadow:0px 3px 0 #455d9f;
-   -webkit-box-shadow:0px 3px 0 #455d9f;
+   -moz-box-shadow:0px 2px 0 #455d9f;
+   -webkit-box-shadow:0px 2px 0 #455d9f;
    background: -moz-linear-gradient(center top , #483fc9 0%, #3152aa 100%) repeat scroll 0 0 transparent;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#483fc9), color-stop(100%,#3152aa));
+    /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#483fc9), color-stop(100%,#3152aa));*/
    }
 
+.appear{
+    background-color: darkblue;
+    height: 150px;
+}
+
+.square{
+    margin: 30px 100px 0px 280px;
+    width: 800px;
+    height: 350px;
+    background-color: #201e1ef3;
+}
 
 
