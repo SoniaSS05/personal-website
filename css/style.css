@@ -113,7 +113,19 @@ button::-moz-focus-inner { border: 0; } /* Para Firefox */
     margin: 30px 100px 0px 280px;
     width: 800px;
     height: 350px;
-    background-color: #201e1ef3;
+   
+    background-image: url(../images/water.jpg);
+  
+    border: 1px solid #626662; /* Color del borde, debe ser más claro que fondo */
+
+	color: #05040e; 
+    font-size: 30px;
+    padding: 80px;
+	border-radius: 10px;  /* Bordes redondos */
+	box-shadow:inset 2px 2px 4px rgba(120, 120, 120, .4), inset -8px -8px 8px rgba(41, 40, 40, 0.4);
+	text-shadow: 1px 1px rgba(0,0,0,.3);  /* Sombra del texto */
+	text-align: center;  /* Alineación del texto */
+  
 }
 
 
